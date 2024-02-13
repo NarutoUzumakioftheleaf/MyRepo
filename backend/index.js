@@ -5,7 +5,7 @@ const mongoDB=require("./db")
 mongoDB()
 app.get("/",(req,res)=>{
     res.send("Hello World");
-})
+})//deepa
 app.use((req,res,next)=>{
     res.setHeader("Access-Control-Allow-Origin","http://localhost:3000");
     res.header(
