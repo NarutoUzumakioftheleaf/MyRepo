@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // components takes precedence over default styles.
 import 'bootstrap/dist/js/bootstrap.min.js'
 import {CartProvider} from './components/ContextReducer';
+
 function App() {
   return (
    <CartProvider>
